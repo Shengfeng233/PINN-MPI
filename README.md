@@ -1,5 +1,5 @@
 # PINN-MPI
-Working for two months, after hunderds times of attempting, the idea of distinctively accelarating the training of PINNs through domain decomposition (implemented through MPI) eventually failed.
+Working for two months, after hunderds times of attempting, the idea of distinctively accelarating the training of PINNs through domain decomposition (implemented through MPI) eventually failed though this is so far the most elegant code we have written.
 
 The reason why PINN-MPI failed mainly lies in the unknown distribution of fluid flow. In some area, there might be a large gradient; in some area, the fluid interacts heavily with the wall, leading to significantly different difficulty in solving these sub domains, and the pain in the ass problem is that you can not know this distribution beforehand.
 
