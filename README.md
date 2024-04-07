@@ -5,7 +5,7 @@ The sub-domains are divided along x,y,and t directions. For each sub-domain, a s
 
 The spatiotemporal parallel physics-informed neural networks are called STPINNs, in this repository, both the implementation of STPINN-NS and STPINN-RANS are presented.
 
-The data are uploaded in the CFD_data through git_lfs.
+The data are uploaded in the CFD_data through git_lfs, or you can access the data through <https://drive.google.com/drive/folders/1thZ8X0d-DFc-bgGcw7G76UCBJSdsbfFl?usp=sharing>.
 
 Annotations are written in both English and Chinese.
 
